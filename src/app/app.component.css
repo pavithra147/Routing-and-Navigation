@@ -1,0 +1,35 @@
+#app{
+    background-color: darksalmon;
+}
+
+
+
+#app{
+    text-align: center;
+    color:cadetblue;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+    justify-content: center;
+}
+li{
+   
+    border:2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    padding:10px;
+    margin:30px;
+}
+a:link{
+    text-decoration : none;
+    text-align: center;
+
+}
+a:active{
+    text-decoration: underline;
+}
+li:hover{
+    background-color: darkkhaki;
+}
