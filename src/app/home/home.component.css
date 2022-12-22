@@ -1,3 +1,46 @@
 p{
     text-align: center;
 }
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aliceblue;
+
+}
+a:link{
+    
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    padding:10px;
+    font-size:20px;
+
+}
+.watch{
+    display:flex;
+    justify-content: center;
+    margin: 70px;
+    column-gap: 50px;
+}
+
+
+
+/* img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} */
+
+h1{
+    text-align: center;
+    font-family:monospace;
+    font-weight: 100;
+}
+.next{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px; ;
+}

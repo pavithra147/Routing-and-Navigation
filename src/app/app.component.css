@@ -1,6 +1,3 @@
-#app{
-    background-color: darksalmon;
-}
 
 
 
@@ -12,15 +9,17 @@ ul{
     display:flex;
     flex-direction:row;
     list-style: none;
-    justify-content: center;
+    justify-content:flex-end;
+    background-color: blueviolet;
+    
 }
 li{
    
     border:2px solid black;
     border-radius: 10px;
-    text-align: justify;
-    padding:10px;
-    margin:30px;
+    
+    padding:5px;
+    margin:10px;
 }
 a:link{
     text-decoration : none;
@@ -32,4 +31,8 @@ a:active{
 }
 li:hover{
     background-color: darkkhaki;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
 }
