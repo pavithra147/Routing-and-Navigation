@@ -4,10 +4,19 @@
 
 <nav>
   <ul>
-    <li><a  routerLink="/Home"routerLinkActive="active"  target="_blank">Home</a></li>  <!--adding route to the"routerLink" attribute  -->
-    <li><a routerLink="/About"routerLinkActive="active">About</a></li>
+    <li><a  routerLink="/Home"routerLinkActive="active"  target="_blank"    
+      fragment="loading"
+      [queryParams]="{page:1,search:'Home'}" >Home</a></li>                               <!--adding route to the"routerLink" attribute  -->
+    <li><a routerLink="/About"routerLinkActive="active" [queryParams]="{page:2,search:'About'}"
+      fragment="loading">About</a></li>   <!--queryParams is used to pass parameters to the URL (This is doing directly from the template this is one way)-->
+               <!--fragments is also used to pass fragments to the URL from the template-->
   </ul>
 </nav>
+
+
+<!-- <div>
+  <button (click)="queryParameter()">passing query parameter to the URL</button>
+</div> -->
 </div>
 
 
@@ -16,4 +25,4 @@
 
 
 
-<router-outlet></router-outlet> <!--This element informs angular to update application view with component for the selected route-->
+ <router-outlet></router-outlet><!-- This element informs angular to update application view with component for the selected route-->
